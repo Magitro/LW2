@@ -43,7 +43,7 @@
                 </div>
             </div>
         </header>
-        <form action="User.php" method="post" class="user">
+        <form action="User.php" method="POST" class="user">
             <div class="allelem">
                 <div>
                     <b>Имя</b>
@@ -62,7 +62,7 @@
                         <b>Пол</b>
                     </div>
                     <div>
-                        <input type="radio" name="radio"> Мужской
+                        <input type="radio" name="radio" required> Мужской
                     </div>
                     <div>
                         <input type="radio" name="radio"> Женский
@@ -118,7 +118,7 @@
                 </div>
                 <div>
                     <div class="btn">
-                        <input type="submit" required>
+                        <input type="submit" value="Отправить письмо" required>
                     </div>
                     <div class="btn">
                         <input type="reset" required>
