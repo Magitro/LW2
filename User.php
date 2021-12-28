@@ -1,9 +1,9 @@
 <?php
-    $Firstname = ($_POST['Fname']);
-    $Lasttname = ($_POST['Lname']);
+    //$Firstname = ($_POST['Fname']);
+    //$Lasttname = ($_POST['Lname']);
     if($_POST['patronymic'] != "")
     {
-        $Patronymic = $_POST['patronymic'];
+        //$Patronymic = trim($_POST['patronymic']);
     }
     $to = "gorhayrapetyan2003@gmail.com";
     $from = trim($_POST['email']);
