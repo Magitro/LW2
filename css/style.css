@@ -1,4 +1,4 @@
-@media screen and (min-height: 1800px){
+@media (min-height: 1800px){
     html, body
     {
         height: 100%;
@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (max-width: 1250px)
+@media (max-width: 1250px)
 {
     section .__inner
     {
@@ -48,7 +48,7 @@
     }
 }
 
-@media screen and (max-width: 920px)
+@media (max-width: 920px)
 {
     .LL
     {
@@ -91,7 +91,7 @@
     }
 }
 
-@media screen and (max-width: 750px)
+@media (max-width: 750px)
 {
     .chart-container, .CB
     {
@@ -297,7 +297,7 @@
     }
 }
 
-@media screen and (max-width: 640px)
+@media (max-width: 640px)
 {
     .chart-container, .CB
     {
@@ -337,7 +337,7 @@
     }
 }
 
-@media screen and (max-width: 430px)
+@media (max-width: 430px)
 {
     .chart-container, .CB
     {
